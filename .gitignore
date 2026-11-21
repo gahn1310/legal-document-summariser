@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets
+data/*
+!data/.gitkeep
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.safetensors
+
+# Generated results
+results/*
+!results/.gitkeep
+
+# Embeddings
+embeddings/
+*.npy
+*.npz
+
+# Secrets
+.env
+
+# Mac
+.DS_Store
